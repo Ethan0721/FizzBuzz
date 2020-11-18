@@ -5,7 +5,6 @@
 const arrayInput = [1, 3, 5 , , 15, 'A', 23];
 
 const fizzBuzz = (numArray)=>{
-    console.log(`Your enter array is ${numArray}`);
 	for(let i=0; i<numArray.length; i++){
 		if(Number.isInteger(numArray[i])){
 			if(numArray[i] % 3 !== 0 && numArray[i] % 5 !== 0){
