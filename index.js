@@ -25,7 +25,6 @@ const fizzBuzz = (numArray)=>{
             console.log("invalid item");
 		}
     }
-    return res;
 }
 
 fizzBuzz(arrayInput);
